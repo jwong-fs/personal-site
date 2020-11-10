@@ -1,16 +1,16 @@
-import React, { Component } from "react";
- 
+import React, { Component } from 'react';
+
 class Contact extends Component {
   render() {
     return (
-      <div id="contact">
+      <div id="contact" className="section">
         <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <p>
+          The easiest thing to do is post on our <a href="http://forum.kirupa.com">forums</a>.
         </p>
       </div>
     );
   }
 }
- 
+
 export default Contact;

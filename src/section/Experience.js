@@ -1,12 +1,11 @@
-import React, { Component } from "react";
- 
+import React, { Component } from 'react';
+
 class Experience extends Component {
   render() {
     return (
-      <div id="experience">
+      <div id="experience" className="section">
         <h2>Experience</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
+        <p>Mauris sem velit, vehicula eget sodales vitae, rhoncus eget sapien:</p>
         <ol>
           <li>Nulla pulvinar diam</li>
           <li>Facilisis bibendum</li>
@@ -18,5 +17,5 @@ class Experience extends Component {
     );
   }
 }
- 
+
 export default Experience;
