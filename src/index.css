@@ -8,10 +8,9 @@ h2,
 p,
 ul,
 li {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .content {
-  background-color: #fff;
   padding: 20px;
 }
 .content h2 {
